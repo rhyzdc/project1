@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta author="rhyz dela cruz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X=UA=Compatible" content="ie=edge">
+    
+    <title>MD | Reservation Form</title>  
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.ico">
+    
+    <style>
+    
+        @media screen and (max-width:768px){
+            
+            .field1{
+                
+                width: 65%;
+            }
+            
+            
+            .field2{
+                
+                width: 65%;
+            }
+            .form{
+                
+                margin: 0 auto;
+            }
+            .p{
+                
+                text-align:left;margin: 0 auto;margin-top: 10px;width:60%;
+            }
+        }
+        
+        
+        
+    
+    </style>
+    
+</head>
+    <body style="background-color: beige">
+       <form class="form" action="destination.html" method="GET">
+
+          <fieldset class="field1">
+          <legend>Personal Details:</legend>
+          <label for="name">Name:</label> <input type="text" name="username" id="name" required autofocus placeholder="Last Name, First Name M.I. (ext.)" pattern="[a-zA-Z ]{2,}[,]{1}[a-zA-Z ]{2,}[a-zA-Z. ]{1,2}[ a-zA-Z .]{0,3}" title="Last Name, First Name M.I. (ext.)">
+          <label for="email">Email:</label> <input type="text" name="email" id="email" required placeholder="Your Email" pattern="[a-zA-Z0-9@_]{3,}[.]{1}[a-zA-Z]{2,}" title="Please enter a valid email address">
+          <label for="phone">Mobile phone:</label> <input type="tel" name="phone" id="phone" required placeholder="09#########" pattern="[0-9]{11}" title="please enter in a phone number in this format 09#########">
+          <label for="DISTRICT">District: </label><select name="Distric" id="DISTRICT" required>
+           <option value=""> </option>
+           <option value="NCR">NCR</option>
+           <option value="CALABARZON">CALABARZON</option>
+           <option value="MIMAROPA">MIMAROPA</option>
+           </select>
+           </fieldset>
+               <br>
+       
+          
+          <fieldset class="field2">
+           <legend>Booking Details</legend>
+           <label for="date">Event date: </label><input type="date" name="date" id="" min="2020-12-18">
+           <label for="numberOfPerson">Number of person/s included: </label><input  style="text-align: center;"type="number" name="numberOfPerson" min="1" max="10">
+            <label for="event">Event: </label><select name="event" id="event" required>
+           <option value=""> </option>
+           <option value="wedding">Wedding</option>
+           <option value="prenup">Pre-nuptial</option>
+           <option value="weddingPrenup">Wedding and prenup</option>
+           <option value="birthday">Birthday</option>
+           <option value="pageant">Pageant</option>
+           <option value="casual">Casual</option>
+           </select>
+           <br>
+           <br>
+           <p> what kind of makeup style do you need?<br>
+           <label for="makeup">traditional</label><input type="radio" name="makeup" value="traditional" id="">
+           <label for="makeup">airbrush</label><input type="radio" name="makeup" value="airbrush" id="">
+           </p>
+           <label for="retouch">Do you require retouch?</label><input type="checkbox" name="retouch" id="retouch" value="yes" >
+           <br>
+           <br>
+           <input type="image" src="images/submit.jpg" alt="submit">
+           
+       </fieldset>
+       
+       
+   </form>
+   <p class="p"><a href="index.html" style="text-decoration: none">back to home page</a></p>
+    
+</body>
+</html>

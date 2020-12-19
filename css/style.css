@@ -1,0 +1,250 @@
+body
+{
+    height: 100%;
+    margin: 25px;
+}
+div
+{
+    display: block;
+}
+div.gallery a img{
+    height: 300px;
+    width: 300px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding-right: 50px;
+   
+}
+
+li
+{
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Muli',Arial,Verdana,sans-serif;
+    
+}
+
+nav ul li a
+{
+    
+    text-decoration: none;
+    cursor: pointer;
+    color: darkviolet;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+a:active{
+    color: yellow;
+    
+}
+
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: red;
+}
+
+button
+{
+    
+    background-color: hotpink;
+    font-size: 20px;
+}
+
+
+.p{
+    text-align: center;margin: 0 auto;margin-top: 10px;
+}
+
+.gallery{
+    margin: 0 0 100px 50px;padding: 0;
+}
+.gallery img{
+    transition: 1s;
+    padding: 55px;
+    width: 200px;
+}
+.gallery img:hover{
+    
+    transform: scale(1.1)
+}
+
+.navigator
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    
+    padding-right: 20px;
+    margin-right: 10px;
+}
+.contactform{
+    font-size: px;
+    text-align: center;
+}
+.formcontent{
+    display: block;
+    
+    width: 350px;
+    margin:0 auto;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 25px;
+    padding: 15px;
+}
+.span1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.subhead{
+    color: grey;
+}
+
+.background
+{
+    
+    background: url(../images/cover2.jpg)
+        no-repeat center fixed;
+    background-size: cover;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+   
+    
+ 
+}
+
+.head1{
+    color: darkgoldenrod;
+    text-align: center;
+    
+}
+
+
+.headfront{
+    
+    width: 500px;margin: 0 auto;margin-top: 100px
+}
+
+    
+}
+.footer{
+    height: 10px;
+    width: 100%;
+}
+.footer p{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+}
+.boxedfront
+{
+    padding-top: 1px;
+    width: 451px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 20px;
+    display:block;
+    margin-bottom: 150px;
+    opacity: 75%
+}
+.topbg{
+    background: url(../images/reenactment.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 550px;
+}
+.wrapbottom{
+    width: 100%;
+    height: 750px;
+}
+
+.insidebox
+{
+   margin-left: 25px; 
+    
+}
+
+
+.RIGHT{
+    
+    float: right;
+    background-color: pink;
+    opacity: 75%;
+    border-radius: 15px;
+}
+
+
+
+.RIGHT a:hover{
+    
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+
+.leftside
+{
+    width: 50%;
+    height:100%;
+   position: relative;
+    float: left;
+
+    
+    
+}
+.about{
+    position: relative;
+    width: 95%;
+       font-size: 30px;
+    padding: 0 0 10px 10px;
+    background: url(../images/pinksplash.jpg) no-repeat center;
+    
+    background-size: cover;
+   font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1{
+    
+     text-align: center;
+    font-size: 44px;
+}
+.rightside
+{
+ 
+    float: right;
+    width: 49%;
+    padding-left: 11px;
+    height: 100%;
+     border-left: 2px solid gray;  
+    background-color: beige;
+    position: relative;
+    
+}
+
+.rightimage{
+    
+    margin: 25px;
+}
+
+.wrapper{
+    
+    width: 100%;
+    height: 100%;
+}
